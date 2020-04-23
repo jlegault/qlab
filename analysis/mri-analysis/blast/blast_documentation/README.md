@@ -9,7 +9,7 @@ Included here are the most up-to-date progresses on blast MRI analyses
 Runs 1 & 2: Tone is Random; Speech is Structured
 Runs 3 & 4: Tone is Structured; Speech is Random
 
-⋅⋅*For specific information about copes used, for each round of analysis, and information specific to blast SL fMRI processing, please see the blast_SL_fmri_documentation.md document.
+* For specific information about copes used, for each round of analysis, and information specific to blast SL fMRI processing, please see the blast_SL_fmri_documentation.md document.
 
 #### Some important notes
 Copes 5-7 were all calculated using the cope_normalization_sylvian_asl.sh script 
@@ -54,7 +54,7 @@ Adult participants were used in these analyses, here is a compiled table with wh
 ### Main goals of analyses
 Make subject-specific ROI masks of language-processing related regions to be used as structural masks in sMRI analyses
 
-⋅⋅*For more information about this project, please see the blast_localizer_documentation.md document
+* For more information about this project, please see the blast_localizer_documentation.md document
 
 ### Progress report
 
