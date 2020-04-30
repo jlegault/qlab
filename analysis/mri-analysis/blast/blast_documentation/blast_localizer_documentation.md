@@ -10,16 +10,42 @@ This approach provides more sensitivity to language processing, greater specific
 
 ## Overarching research questions, planned analyses, and hypotheses
 
-### RQ 1: Address whether neural processing of statistical learning tasks is domain specific or domain general
+Examine how we can predict/model effective SL task performance using neural measures of language processing and multiple demand processing
+
+### RQ 1: Which neural language processing characteristics predict various SL tasks?
 Follow up RQ: Address consistency and sensitivity of GM vs fMRI data 
+
+ 
+#### Hypotheses:
+1. Both GM and fMRI data will show that MRI data correlate with linguistic but not non-linguistic SL
+⋅⋅* This would be indicative that 1) neural processing of SL tasks are domain - specific and 2) both GM and fMRI data are consistent and sensitive to SL domain-specific differences
+2. Control task: Should have no group differences (or sig cor) between beta weights or GMV and flanker task
 
 #### Analyses to run:
 1. Take individual beta weights from intact > degraded and run correlations with various behavioral SL tasks.
 2. Take individual GMV/CT from intact > degraded ROIs and run correlations with various behavioral SL tasks
 3. Control task: Take individual beta weights and GMV/CT from intact > degraded and run correlations with flanker executive function task
 4. Control ROI: select an ROI from the multiple demand (MD) network and take individual beta weights and GMV/CT and run correlations with SL tasks
-#### Hypotheses:
-1. Both GM and fMRI data will show that MRI data correlate with linguistic but not non-linguistic SL
-⋅⋅* This would be indicative that 1) neural processing of SL tasks are domain - specific and 2) both GM and fMRI data are consistent and sensitive to SL domain-specific differences
-2. Control task: Should have no group differences (or sig cor) between beta weights or GMV and flanker task
-3. Control ROI: Should have no group differences (or sig cor) between beta weights or GMV and SL tasks
+
+### RQ 2: Which neural multiple demands characteristics predict various SL tasks?
+
+#### Hypotheses
+1. Any SL tasks may show some correlation with GMV in MD network, however there should not be group differences between linguistic vs non-linguistic SL tasks
+
+#### Analyses
+1.  See if adding in GMV from MD network increases confidence/fit/accuracy of model
+
+### Statistical methodologies to look into using
+
+K-fold cross-validation (with k = 5)
+1. Shuffle the dataset randomly.
+2. Split the dataset into k groups
+3. For each unique group:
+* Take the group as a hold out or test data set
+* Take the remaining groups as a training data set
+* Fit a model on the training set and evaluate it on the test set
+* Retain the evaluation score and discard the model
+4. Summarize the skill of the model using the sample of model evaluation scores
+
+Importantly, each observation in the data sample is assigned to an individual group and stays in that group for the duration of the procedure. This means that each sample is given the opportunity to be used in the hold out set 1 time and used to train the model k-1 times.
+
