@@ -34,9 +34,7 @@ Follow up RQ: Address consistency and sensitivity of GM vs fMRI data
 ⋅⋅* This would be indicative that 1) neural processing of SL tasks are domain - specific and 2) both GM and fMRI data are consistent and sensitive to SL domain-specific differences
 2. Control task: Should have no group differences (or sig cor) between beta weights or GMV and flanker task
 
-### RQ 2: Which neural multiple demands characteristics predict various SL tasks?
-
-#### Hypotheses
+#### RQ 2 Hypotheses
 1. Any SL tasks may show some correlation with GMV in MD network, however there should not be group differences between linguistic vs non-linguistic SL tasks
 
 
