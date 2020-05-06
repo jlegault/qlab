@@ -1,39 +1,53 @@
 # Blast localizer documentation
 
-## Overarching aim of subject-specific functional localizer
+## Study Information
+
+### Title
+
+Neural Characterization of Cross-modality and Cross-linguistic Statistical Learning in Adults
+
+### Authors
+
+Jennifer Legault, Julie Schneider, Anqi Hu, and Zhenghan Qi
+
+### Description
+
+#### Overarching aim of subject-specific functional localizer
 
 To identify subject-specific ROIs tuned to language processing and assess relationships between ROI measures, language processing, and various behavioral tasks.
 
-## Advantages of subject-specific functional localizer
+#### Advantages of subject-specific functional localizer
 
 This approach provides more sensitivity to language processing, greater specificity for language (over other non-linguistic tasks such as working memory), greater reliability of results due to using shared paradigm.
 
-## Overarching research questions, planned analyses, and hypotheses
+### Hypotheses
 
-Examine how we can predict/model effective SL task performance using neural measures of language processing and multiple demand processing
+Overarching goal: Examine how we can predict/model effective SL task performance using neural measures of language processing and multiple demand processing
 
-### RQ 1: Which neural language processing characteristics predict various SL tasks?
+#### Research Question 1: Which neural language processing characteristics predict various SL tasks?
 Follow up RQ: Address consistency and sensitivity of GM vs fMRI data 
 
+#### RQ 2: Which neural multiple demands characteristics predict various SL tasks?
  
-#### Hypotheses:
+####  RQ 1 Hypotheses:
 1. Both GM and fMRI data will show that MRI data correlate with linguistic but not non-linguistic SL
 ⋅⋅* This would be indicative that 1) neural processing of SL tasks are domain - specific and 2) both GM and fMRI data are consistent and sensitive to SL domain-specific differences
 2. Control task: Should have no group differences (or sig cor) between beta weights or GMV and flanker task
-
-#### Analyses to run:
-1. Take individual beta weights from intact > degraded and run correlations with various behavioral SL tasks.
-2. Take individual GMV/CT from intact > degraded ROIs and run correlations with various behavioral SL tasks
-3. Control task: Take individual beta weights and GMV/CT from intact > degraded and run correlations with flanker executive function task
-4. Control ROI: select an ROI from the multiple demand (MD) network and take individual beta weights and GMV/CT and run correlations with SL tasks
 
 ### RQ 2: Which neural multiple demands characteristics predict various SL tasks?
 
 #### Hypotheses
 1. Any SL tasks may show some correlation with GMV in MD network, however there should not be group differences between linguistic vs non-linguistic SL tasks
 
-#### Analyses
-1.  See if adding in GMV from MD network increases confidence/fit/accuracy of model
+
+## Design Plan
+
+### Analyses to run:
+1. Take individual beta weights from intact > degraded and run correlations with various behavioral SL tasks.
+2. Take individual GMV/CT from intact > degraded ROIs and run correlations with various behavioral SL tasks
+3. Control task: Take individual beta weights and GMV/CT from intact > degraded and run correlations with flanker executive function task
+4. Control ROI: select an ROI from the multiple demand (MD) network and take individual beta weights and GMV/CT and run correlations with SL tasks
+5. See if adding in GMV from MD network increases confidence/fit/accuracy of model
 
 ### Statistical methodologies to look into using
 
