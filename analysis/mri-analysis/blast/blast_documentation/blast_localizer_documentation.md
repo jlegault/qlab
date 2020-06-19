@@ -12,6 +12,10 @@ Jennifer Legault, Julie Schneider, Anqi Hu, and Zhenghan Qi
 
 ### Description
 
+#### Impact Statement for general audience
+
+Statistical Learning (SL) reflects the ability to parse patterns and information from the environment.  It is an essential skill for various components of language learning, such as learning about which sounds are important for a target language and learning word boundaries.  However, little is known about how the brain processes this SL information, since there are large variations in behavior and brain structure across individuals.  This study aims to identify subject-specific neural regions of interest that are tuned to language processing and assess relationships between brain structure in these regions and individual SL performance.  In particular, we are interested in predicting effective SL task performance using neural measures of language processing.  This will help us identify which language-based regions are also important for SL within and between individuals. 
+
 #### Overarching aim of subject-specific functional localizer
 
 To identify subject-specific ROIs tuned to language processing and assess relationships between ROI measures, language processing, and various behavioral tasks.
